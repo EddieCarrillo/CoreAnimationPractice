@@ -25,6 +25,9 @@ class ViewController: UIViewController {
         
         shapeLayer.path = circularPath.cgPath
         
+        shapeLayer.strokeColor = UIColor.red.cgColor
+        shapeLayer.lineWidth = 10
+        
         view.layer.addSublayer(shapeLayer)
     }
 
